@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body,html {
+    background-color: #76A9B2 ;
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    margin: 50px auto;
+    width: 336px;
+    height: 600px;
+    background: url(../imagens/metal-login.jpg) bottom center no-repeat;
+    background-size: cover;
+    border: 1px solid #243b3fcd ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.564);
+}
+section {
+    position: absolute;
+    top: 300px;
+    width: 316px;
+    height: 332px;
+    border-radius: 0px 0px 20px 20px ;
+    background-color: white;
+    padding: 10px;
+}
+
+section h1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+section p {
+    text-align: center;
+    font-size: small;
+}
+form {
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+form div {
+    position: relative;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: #76A9B2;
+}
+
+form label span {
+    position: absolute;
+    top:15px ;
+    left:8px ;
+    color: white;
+}
+
+form input {
+    width: 260px;
+    height: 40px;
+    border-radius:10px;
+    margin-left: 30px;
+    padding-left: 5px;
+    border: none;
+} 
+
+button {
+    width: 300px;
+    height: 45px;
+    background-color: #76A9B2;
+    border: none;
+    border-radius:5px;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+}
+button:hover {
+    background-color: #4d6e74;
+    cursor:pointer;
+}
+
+section a {
+    display: block;
+    width: 280px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    color: black;
+    background-color: white;
+    border: 1px solid #76A9B2 ;
+    border-radius:5px;
+    padding: 10px;
+}
+section a:hover {
+    background-color: #71b0bbb5;
+}
+
+
