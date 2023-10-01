@@ -13,8 +13,8 @@ body,html {
 }
 body {
     margin: 50px auto;
-    width: 336px;
-    height: 600px;
+    width: 280px;
+    height: 552px;
     background: url(../imagens/metal-login.jpg) bottom center no-repeat;
     background-size: cover;
     border: 1px solid #243b3fcd ;
@@ -24,8 +24,8 @@ body {
 section {
     position: absolute;
     top: 300px;
-    width: 316px;
-    height: 332px;
+    width: 260px;
+    height: 284px;
     border-radius: 0px 0px 20px 20px ;
     background-color: white;
     padding: 10px;
@@ -62,7 +62,7 @@ form label span {
 }
 
 form input {
-    width: 260px;
+    width: 205px;
     height: 40px;
     border-radius:10px;
     margin-left: 30px;
@@ -71,7 +71,7 @@ form input {
 } 
 
 button {
-    width: 300px;
+    width: 250px;
     height: 45px;
     background-color: #76A9B2;
     border: none;
@@ -88,7 +88,7 @@ button:hover {
 
 section a {
     display: block;
-    width: 280px;
+    width: 230px;
     height: 20px;
     margin-left: 5px;
     text-decoration: none;
