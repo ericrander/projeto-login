@@ -1,0 +1,117 @@
+@charset "UTF=8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html ,body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    position: relative;
+    background-color:#86bec9cf;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 550px;
+    border-radius: 20px;
+    border-style: 1px solid #54777d;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.597);
+}
+
+#imagem {
+    width: 100%;
+    height: 230px;
+    background: black url(imagens/metal-login.jpg) left bottom no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#formulario {
+    padding: 10px;
+}
+
+#formulario h1 {
+    text-align: center;
+    margin: 5px auto;
+}
+
+#formulario p {
+    font-size: small;
+    margin: 7px auto;
+}
+
+.campo {
+    background-color:#86bec9cf;
+    padding-left: 3px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+label {
+    display: none;
+}
+
+span {
+    position: relative;
+    top: 7px;
+    font-size: larger;
+}
+
+div.campo > input {
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+    height: 30px;
+}
+
+#botao {
+    width: 100%;
+    background-color:#86bec9cf;
+    color: white;
+    border: 1px solid #597f8698;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#botao:hover {
+    background-color: #54777d;
+    cursor: pointer;
+}
+
+form a {
+    display: block;
+    height: 15px;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
+    background-color:white;
+    color: #597f86e3;
+    border: 1px solid #597f8698;
+    border-radius: 5px;
+    padding:10px 0px 10px 0px ;
+}
+
+form a:hover {
+    background-color:#54777d;
+    color: white;
+}
+
+#emailicon {
+    position: relative;
+    top: 0px;
+    font-size: smaller;
+}
