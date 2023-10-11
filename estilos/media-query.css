@@ -1,2 +1,23 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 768px) and (max-width: 922px) {
+
+    main,section {
+        width: 80vw;
+        height: 280px;
+    }
+    section #imagem {
+        width: 40%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+     main > section > #formulario {
+        position: relative;
+        top: -280px;
+        float: right;
+        width: 55%;
+    }
+    div.campo > input {
+        width: 90%;
+    }
+}
