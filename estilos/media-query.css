@@ -2,22 +2,59 @@
 
 @media screen and (min-width: 768px) and (max-width: 922px) {
 
+    body {
+        background-image: linear-gradient(180deg, #A87965, #86bec9cf);
+    }
     main,section {
         width: 80vw;
         height: 280px;
     }
     section #imagem {
-        width: 40%;
+        width: 42%;
         height: 100%;
         border-radius: 20px 0px 0px 20px;
     }
-     main > section > #formulario {
+    main > section > div#formulario {
         position: relative;
         top: -280px;
-        float: right;
         width: 55%;
+        height: 100%;
+        float: right;    
     }
     div.campo > input {
         width: 90%;
+    }
+}    
+
+@media screen and (min-width: 922px) {
+    
+    body {
+        background-image: linear-gradient(180deg, #A87965, #86bec9cf);
+    }
+    main,section {
+        width: 930px;
+        height: 340px;
+    }
+    section #imagem {
+        float: right;
+        width: 42%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+    main > section > div#formulario {
+        width: 55%;
+        height: 100%;
+        float: left;    
+    }
+    div.campo > input {
+        width: 90%;
+    }
+    section h1 {
+        font-size: 2em;
+        padding: 10px 0px;
+    }
+    section p {
+        font-size: large;
+        padding-bottom: 10px;
     }
 }

@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+
 </head>
 <body>
     <main>
@@ -17,26 +18,27 @@
                 
             </div>
 
-            <form id="formulario" action="cadastro.php" method="post"
-            autocomplete="on">
+            <div id="formulario">
+                <form action="cadastro.php" method="post"
+                autocomplete="on">
 
-            <h1>Login</h1>
-            <p>Seja bem-vindo (a) novamente. Faça login para acessar sua conta.</p>
-            <div class="campo">
-                <span class="material-symbols-outlined">person</span>
-                <input type="email" name="email" id="iemail" placeholder=" Seu e-mail." required >
-                <label for="iemail">Email</label>
+                <h1>Login</h1>
+                <p>Seja bem-vindo (a) novamente. Faça login para acessar sua conta.</p>
+                
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="email" id="iemail" placeholder=" Seu e-mail." required >
+                        <label for="iemail">Email</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="Senha" id="isenha" placeholder=" Sua senha." minlength="8" required>
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar" id="botao">
+                    <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="_blank"> Esqueci a senha <span class="material-symbols-outlined" id="emailicon">mail</span> </a>
+                </form>
             </div>
-
-            <div class="campo">
-                <span class="material-symbols-outlined">vpn_key</span>
-                <input type="password" name="Senha" id="isenha" placeholder=" Sua senha." minlength="8" required>
-                <label for="isenha">Senha</label>
-            </div>
-
-            <input type="submit" value="Entrar" id="botao">
-            <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="_blank"> Esqueci a senha <span class="material-symbols-outlined" id="emailicon">mail</span> </a>
-            </form>
         </section>
     </main>
 </body>
